@@ -7,5 +7,8 @@ module.exports = {
     },
     profile: (req, res) => {
         return res.render('profile')
+    },
+    denied: (req, res) => {
+        return res.render('access-denied')
     }
 }

@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const { register, login, profile } = require('../controllers/usersController');
+const { register, login, profile, denied } = require('../controllers/usersController');
 
 /* /users */
 
